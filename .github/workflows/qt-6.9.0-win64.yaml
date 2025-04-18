@@ -13,7 +13,7 @@ jobs:
       - name: Create install dir
         run: mkdir qt_install_dir
       - name: Configure submodules
-        run: configure.bat -init-submodules -force-debug-info -prefix ./qt_install_dir -release -submodules qtbase,qttools,qtsvg,qtimageformats
+        run: .\configure.bat -init-submodules -force-debug-info -prefix ./qt_install_dir -release -submodules qtbase,qttools,qtsvg,qtimageformats
       - name: Build Qt
         run: cmake --build . --parallel
       - name: Install Qt
