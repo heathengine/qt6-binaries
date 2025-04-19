@@ -13,7 +13,7 @@ jobs:
       - name: Create install dir
         run: mkdir qt_install_dir
       - name: Configure Qt, build and install Qt
-        run: ./configure -init-submodules -force-debug-info -prefix ./qt_install_dir -release -submodules qtbase,qttools,qtsvg,qtimageformats -- -DCMAKE_OSX_ARCHITECTURES="arm64"
+        run: ./configure -init-submodules -prefix ./qt_install_dir -release -submodules qtbase,qttools,qtsvg,qtimageformats -- -DCMAKE_OSX_ARCHITECTURES="arm64"
       - name: Build Qt
         run: cmake --build . --parallel
       - name: Install Qt
