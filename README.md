@@ -1,5 +1,9 @@
 # qt6-binaries
 
+[![Qt 6.9.0 | win64](https://github.com/heathengine/qt6-binaries/actions/workflows/qt-6.9.0-win64.yaml/badge.svg)](https://github.com/heathengine/qt6-binaries/actions/workflows/qt-6.9.0-win64.yaml)
+
+[![Qt 6.9.0 | macos](https://github.com/heathengine/qt6-binaries/actions/workflows/qt-6.9.0-macos.yaml/badge.svg)](https://github.com/heathengine/qt6-binaries/actions/workflows/qt-6.9.0-macos.yaml)
+
 This repo contains workflows to build the Qt binary package for Heath.
 
 It builds:
